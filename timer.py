@@ -1,5 +1,4 @@
 import time
-import threading
 from argparse import ArgumentParser
 
 def get_args():
