@@ -1,0 +1,21 @@
+.button {
+        display: inline-block;
+        padding: 12px 25px;
+        margin: 10px;
+        font-size: 16px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        transition: background-color 0.2s;
+    }
+
+.button:hover {
+        background-color: #0056b3;
+}
+
+.book{margin-bottom: 15px;}
+.title{font-weight: bold; font-size: 1.2em;}
+.author{color: darkmagenta;}
+
+body{ font-family: Times New Roman; padding: 20px; background-color: aliceblue;}

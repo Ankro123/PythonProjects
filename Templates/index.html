@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='mycss.css') }}">
 </head>
+
 <body>
-    <form action="/preent" method="post">
-        Enter Name: <input type="text" name="name" id="name">
-        <button type="submit">Submit</button>
-    </form>
+    <h1>Welcome to my website!</h1>
+    <h2>Press the button below to get launched into the website!</h2>
+    <a href="/launch" class="button" type="button">➕ Add a Book</a>
+    <a href="/details" class="button" type="button">📖 View All Books</a>
 </body>
+
 </html>
