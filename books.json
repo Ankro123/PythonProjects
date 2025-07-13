@@ -6,17 +6,32 @@
  },
  {
   "id": 2,
-  "name": "ASKHFASD",
-  "author": "ADHGFIU"
+  "name": "MISTRI",
+  "author": "KLEIN"
  },
  {
   "id": 3,
   "name": "ABCDERFA",
-  "author": "ASDASG"
+  "author": "KLEIN"
  },
  {
   "id": 4,
-  "name": "LOTM",
-  "author": "Rawat"
+  "name": "SHERLOCK",
+  "author": "MORETTI"
+ },
+ {
+  "id": 5,
+  "name": "Atomic Habits",
+  "author": "James Clear"
+ },
+ {
+  "id": 6,
+  "name": "LORD",
+  "author": "KLEIN"
+ },
+ {
+  "id": 7,
+  "name": "MORIARTI",
+  "author": "SHERLOCK"
  }
 ]
