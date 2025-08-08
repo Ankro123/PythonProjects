@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+</head>
+<body>
+    <h1>Please enter url:</h1>
+    <br>
+    <form action='/' method="POST">
+        Long URL : <input type="text" name="long_url">
+        <button type="submit">Submit</button>
+    </form>
+    
+    <form action='/redirect_orig' method="POST">
+        Short URL : <input type="text" name="short_url">
+        <button type="submit">Submit</button>
+    </form>
+
+    <form action='/show_urls' method="GET">
+        <button type="submit">Show All Urls</button>
+    </form>
+
+    {% if short_url %}
+        <h2>Shortened Url = <a href="{{ short_url }}"> {{ short_url }}</a></h2>
+    {% endif %}
+</body>
+</html>
